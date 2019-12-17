@@ -64,7 +64,7 @@ stages:
     displayName: 'Deploy Angular application to test environment'
     environment: 'Test'
     stageName: 'DeployTest'
-    webAppName: '$(TestEnvironemntWebAppName)'
+    webAppName: '$(TestEnvironmentWebAppName)'
 - template: templates/deploy.yml
   parameters:
     deployment: 'DeployProduction'
